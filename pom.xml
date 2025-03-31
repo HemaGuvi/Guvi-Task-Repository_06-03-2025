@@ -20,7 +20,13 @@
     <artifactId>poi-ooxml-schemas</artifactId>
     <version>4.1.2</version>
 </dependency>
-      
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.11.0</version>
+    <scope>test</scope>
+</dependency>  
     
     
 <dependency>
@@ -51,7 +57,12 @@
     <artifactId>logback-classic</artifactId>
     <version>1.2.6</version>
 </dependency>
-
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.30.0</version>
+</dependency>
 
   	<dependency>
   		<groupId>GPID</groupId>
