@@ -8,7 +8,20 @@
       <groupId>org.apache.poi</groupId>
       <artifactId>poi</artifactId>
       <version>5.4.0</version> 
-    </dependency>		
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.22.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.22.0</version>
+    <scope>test</scope>
+</dependency>		
  <dependency>
       <groupId>org.apache.poi</groupId>
       <artifactId>poi-ooxml</artifactId>
@@ -63,7 +76,16 @@
     <artifactId>selenium-java</artifactId>
     <version>4.30.0</version>
 </dependency>
-
+<dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>42.2.23</version> <!-- Use the latest version available -->
+</dependency>
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.29</version> <!-- Use the latest version available -->
+</dependency>
   	<dependency>
   		<groupId>GPID</groupId>
   		<artifactId>ARTID</artifactId>
